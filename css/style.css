@@ -1,11 +1,9 @@
-
 .list {
   list-style: none;
 }
 
-body {
+.body {
   font-family: Roboto;
-  font-style: normal;
 }
 
 /*----------- Header-----------------*/
@@ -15,7 +13,6 @@ body {
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
-
 
   letter-spacing: 0.03em;
 
@@ -52,6 +49,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
 
   color: #757575;
 }
@@ -64,7 +62,7 @@ body {
 .mail-link-current {
   color: #2196f3;
   text-decoration: none;
- 
+  cursor: pointer;
 }
 
 .tel-link:hover,
@@ -77,11 +75,9 @@ body {
 /*-----------Hero-----------------*/
 
 .hero-title {
-
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -145,9 +141,7 @@ body {
   letter-spacing: 0.03em;
 
   color: #212121;
-
 }
-
 
 /*-----------END What we do-----------------*/
 
@@ -168,7 +162,6 @@ body {
   font-size: 16px;
   line-height: 19px;
 
-
   /*text-align: center;*/
   letter-spacing: 0.03em;
 }
@@ -178,7 +171,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
 
   /*text-align: center;*/
   letter-spacing: 0.03em;
@@ -190,19 +182,18 @@ body {
 
 /*----------------Footer-------------------*/
 
-.logo-footer{
+.logo-footer {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
 
-
   letter-spacing: 0.03em;
 
   color: #2196f3;
 }
-.logo-color {
+.logo-color-footer {
   color: rgb(252, 248, 248);
 }
 .map {
@@ -214,12 +205,12 @@ body {
 
   letter-spacing: 0.03em;
   text-decoration: none;
-color: black;
-  /*color: #FFFFFF;*/
+
+  color: #ffffff;
 }
 
 .mail-footer {
-    font-style: normal;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -234,101 +225,188 @@ color: black;
   color: #2196f3;
 }
 
-
+.footer {
+  background: #2f303a;
+}
 /*---------------- END-Footer-------------------*/
-
-
-
 
 /*Portfolio*/
 
 /*----------- Header-----------------*/
-.logo{
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
-  
-  
-    letter-spacing: 0.03em;
-  
-    color: #2196f3;
-  }
-  .logo-color {
-    color: rgb(0, 0, 0);
-  }
-  .menu-link{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    cursor: pointer;
-    text-decoration: none;
-  
-    color: #212121;
-  }
-  
-  .menu-link:hover,
-  .menu-link:focus {
-    color: #2196f3;
-  }
-  .menu-link.current {
-    color: #2196f3;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .mail-link,
-  .tel-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-  
-    color: #757575;
-  }
-  
-  .mail-link:hover,
-  .mail-link:focus {
-    color: #2196f3;
-  }
-  
-  .mail-link-current {
-    color: #2196f3;
-    text-decoration: none;
-   
-  }
-  
-  .tel-link:hover,
-  .tel-link:focus {
-    color: #2196f3;
-  }
-  
-  /*-----------END Header-----------------*/
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
 
+  letter-spacing: 0.03em;
 
- /*-----------Filter----------------*/
+  color: #2196f3;
+}
+.logo-color {
+  color: rgb(0, 0, 0);
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
 
-  radius: 4px;
-  }
-  .filter-btn .current {
-    position: absolute;
-width: 29px;
-height: 26px;
-left: 517px;
-top: 180px;
+  color: #212121;
+}
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
+.menu-link.current {
+  color: #2196f3;
+  cursor: pointer;
+  text-decoration: none;
+}
 
-text-align: center;
-letter-spacing: 0.03em;
+.mail-link,
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 
-color: #FFFFFF;
-  /*-----------End Filter----------------*/
+  color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196f3;
+}
+
+.mail-link-current {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196f3;
+}
+
+/*-----------END Header-----------------*/
+
+/*-----------Filter----------------*/
+
+.main-btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter-btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #020202;
+
+  background: #f5f4fa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/*-----------End Filter----------------*/
+
+/*-----------Portfolio----------------*/
+
+.project-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.project-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*-----------End Portfolio----------------*/
+
+/*----------------Footer-------------------*/
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logo-color-footer {
+  color: rgb(252, 248, 248);
+}
+.map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  *color: #ffffff;
+}
+
+.mail-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.mail-footer:hover,
+.mail-footer:focus {
+  color: #2196f3;
+}
+
+.footer {
+  background: #2f303a;
+}
+/*---------------- END-Footer-------------------*/
